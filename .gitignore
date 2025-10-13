@@ -1,0 +1,56 @@
+# === Build artifacts ===
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.tmp
+
+# === Visual Studio / VS Code ===
+.vs/
+.vscode/
+*.code-workspace
+
+# === User-specific files ===
+*.user
+*.suo
+*.dbmdl
+*.sln.docstates
+
+# === Backup and temporary files ===
+~$*
+*~
+*.bak
+*.zip
+*.7z
+*.rar
+Thumbs.db
+.DS_Store
+
+# === Dotnet generated ===
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+
+# === Local result files ===
+**/result.txt
+**/result*.txt
+
+# === Ignore automatic restore folders ===
+**/packages/
+**/node_modules/
+
+# === Logs and cache ===
+*.tlog
+*.vspscc
+*.vssscc
+*.pidb
+*.svclog
+
+# === Misc ===
+*.nupkg
+*.snupkg
